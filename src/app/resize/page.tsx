@@ -289,11 +289,43 @@ export default function ResizePage() {
             </div>
           )}
 
+          {/* Detailed SEO Copywriting Guide Section */}
+          <div className="border-t border-white/5 pt-10 mt-10 space-y-6 text-left">
+            <div className="space-y-2">
+              <h3 className="text-lg font-extrabold text-white tracking-tight">
+                Complete Guide: How to Resize Your Image Online
+              </h3>
+              <p className="text-xs text-gray-400 font-light leading-relaxed">
+                Learn how proportional resolution scaling downscales pixel dimensions to optimize your raw photo files.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+              <div className="glass-panel p-5 rounded-2xl border border-white/5 bg-white/[0.01] space-y-2">
+                <h4 className="font-bold text-xs text-white uppercase tracking-wider text-brand-secondary">
+                  What is Proportional Resizing?
+                </h4>
+                <p className="text-xs text-gray-400 font-light leading-relaxed">
+                  To resize your image without stretching or distorting it, you must maintain its original aspect ratio. Proportional resizing ensures that as you reduce the width, the height scales down by the exact same percentage. This preserves the original proportions of the subjects, shapes, and details in your photo.
+                </p>
+              </div>
+
+              <div className="glass-panel p-5 rounded-2xl border border-white/5 bg-white/[0.01] space-y-2">
+                <h4 className="font-bold text-xs text-white uppercase tracking-wider text-brand-secondary">
+                  Why Downscale Image Dimensions?
+                </h4>
+                <p className="text-xs text-gray-400 font-light leading-relaxed">
+                  Modern high-resolution cameras produce huge photos containing upwards of 24 million pixels. While perfect for large physical prints, these heavy assets slow down page loads and trigger system upload rejections online. Scaling down the dimensions (e.g. to 50% scale) dramatically compresses the total pixel count by 75%, making the file extremely lightweight.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </main>
 
       <footer className="p-5 border-t border-white/5 bg-black/10 text-center text-[10px] text-gray-600 font-light">
-        AuraResize. Free, secure, client-side browser optimization.
+        VectraCompress. Free, secure, client-side image optimization.
       </footer>
     </div>
   );

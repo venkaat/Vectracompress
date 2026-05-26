@@ -3,7 +3,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Minimize2, Sliders, Crop, Expand, Zap, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Minimize2, Sliders, Crop, Expand, Zap, ArrowRight, ShieldCheck, ChevronDown } from 'lucide-react';
 
 export default function HomePortal() {
   const suites = [
@@ -51,16 +51,16 @@ export default function HomePortal() {
             </div>
             <div>
               <span className="font-bold text-base text-white tracking-wide">
-                AuraCompress
+                VectraCompress
               </span>
               <p className="text-[9px] text-brand-secondary font-semibold uppercase tracking-wider">
-                Ultra-Fidelity size reduction suite
+                Reduce Image size without losing quality
               </p>
             </div>
           </div>
           <span className="flex items-center gap-1.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
             <ShieldCheck className="w-3.5 h-3.5" />
-            <span>100% Secure & Local</span>
+            <span>Images Never Leave Your Device</span>
           </span>
         </div>
       </header>
@@ -76,11 +76,12 @@ export default function HomePortal() {
               <span>Three Unique Reduction Paths</span>
             </div>
             <h2 className="text-4xl sm:text-5xl font-black tracking-tight text-white leading-tight">
-              How do you want to <br />
-              <span className="bg-gradient-to-r from-brand-primary via-brand-accent to-brand-secondary bg-clip-text text-transparent">Reduce File Size</span>?
+              Compress Images Without <br />
+              <span className="bg-gradient-to-r from-brand-primary via-brand-accent to-brand-secondary bg-clip-text text-transparent">Losing Quality</span>?
             </h2>
             <p className="text-xs sm:text-sm text-gray-400 font-light leading-relaxed">
-              Pick your preferred strategy below. All optimizations execute 100% client-side inside your browser cache. Instant, private, and zero login barrier.
+              Compress, resize, or crop images instantly in your browser. 
+Fast, private, and free image optimization with no upload limits.
             </p>
           </div>
 
@@ -123,12 +124,118 @@ export default function HomePortal() {
             })}
           </div>
 
+          {/* Specialized Tools Quick Links Section */}
+          <div className="space-y-4 pt-6">
+            <h3 className="text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center">
+              Specialized Formatting Utilities
+            </h3>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              {[
+                { name: "Compress image to 20KB", href: "/compress-image-to-20kb" },
+                { name: "Compress image to 50KB", href: "/compress-image-to-50kb" },
+                { name: "Compress image to 100KB", href: "/compress-image-to-100kb" },
+                { name: "Passport Photo Reducer", href: "/passport-photo-size-reducer" },
+                { name: "Signature Compressor", href: "/signature-image-compressor" },
+              ].map((link, index) => (
+                <Link
+                  key={index}
+                  href={link.href}
+                  className="px-4 py-2 text-xs font-semibold bg-white/[0.02] border border-white/5 hover:border-brand-primary/30 rounded-full text-gray-400 hover:text-white transition-all hover:scale-[1.02]"
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Detailed SEO Copywriting Guide Section */}
+          <div className="border-t border-white/5 pt-12 space-y-8">
+            <div className="text-center space-y-3">
+              <h3 className="text-2xl font-extrabold text-white tracking-tight">
+                Complete Guide to Image Size Reduction
+              </h3>
+              <p className="text-xs text-gray-400 font-light max-w-xl mx-auto">
+                Optimize your digital footprint. Learn how to reduce your photo file size, crop unnecessary margins, and resize dimensions.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="glass-panel p-6 rounded-2xl border border-white/5 space-y-3 bg-white/[0.01]">
+                <div className="text-brand-primary text-xs font-bold uppercase tracking-widest">
+                  1. Reduce Photo File Size
+                </div>
+                <h4 className="font-bold text-white text-sm">Target KB Compression</h4>
+                <p className="text-xs text-gray-400 font-light leading-relaxed">
+                  Adjusting quality compression is the fastest way to shrink an image's storage footprint. VectraCompress uses advanced client-side binary search algorithms to iteratively compress images down to specific size targets like 20KB, 50KB, or 100KB, finding the perfect balance between size and high visual fidelity.
+                </p>
+              </div>
+
+              <div className="glass-panel p-6 rounded-2xl border border-white/5 space-y-3 bg-white/[0.01]">
+                <div className="text-brand-accent text-xs font-bold uppercase tracking-widest">
+                  2. Crop Your Image
+                </div>
+                <h4 className="font-bold text-white text-sm">Spatial Trimming</h4>
+                <p className="text-xs text-gray-400 font-light leading-relaxed">
+                  Often, large image sizes are caused by unnecessary blank spaces or unwanted border details. Slicing away border margins physically deletes raw pixels from your canvas, reducing both dimensional scale and file weight without degrading the remaining details. Perfect for framing subjects.
+                </p>
+              </div>
+
+              <div className="glass-panel p-6 rounded-2xl border border-white/5 space-y-3 bg-white/[0.01]">
+                <div className="text-brand-secondary text-xs font-bold uppercase tracking-widest">
+                  3. Resize Dimensions
+                </div>
+                <h4 className="font-bold text-white text-sm">Resolution Downscaling</h4>
+                <p className="text-xs text-gray-400 font-light leading-relaxed">
+                  Large megapixel camera imports can choke websites and online portals. By scaling down the width and height proportionally (e.g., to 50% or 75% scale), you compress overall pixel resolution using smooth bilinear interpolation, producing beautifully crisp, fast-loading images optimized for the web.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Interactive FAQ Section */}
+          <div className="border-t border-white/5 pt-12 pb-6 space-y-6">
+            <h3 className="text-xl font-extrabold text-center text-white tracking-tight">
+              Frequently Asked Questions
+            </h3>
+            
+            <div className="max-w-2xl mx-auto space-y-4">
+              {[
+                {
+                  q: "How do I reduce my photo file size to exactly 20KB or 50KB?",
+                  a: "Use our specialized target compressors! Simply upload your image, select the target size (e.g. 20KB or 50KB), and VectraCompress will automatically search for the optimal compression quality and size configuration to match your limit."
+                },
+                {
+                  q: "Does VectraCompress upload my private photos to any servers?",
+                  a: "No! VectraCompress is built 100% on client-side browser cache. Your photos are optimized directly inside your browser and never leave your device. We stand for complete data security and total privacy."
+                },
+                {
+                  q: "What is the difference between cropping and resizing an image?",
+                  a: "Cropping cuts out unwanted outer edges of the photo to refocus the subject (changing the aspect ratio). Resizing downscales the entire image's physical width and height proportionally, keeping the full picture but reducing raw pixels."
+                },
+                {
+                  q: "Which image formats are supported for compression?",
+                  a: "We support major formats including JPEG, JPG, PNG, and WebP. All optimized outputs are cleanly wrapped in optimized formats for immediate download."
+                }
+              ].map((faq, index) => (
+                <details key={index} className="group glass-panel rounded-2xl border border-white/5 bg-white/[0.01] p-5 cursor-pointer select-none">
+                  <summary className="list-none flex items-center justify-between text-xs font-bold text-white uppercase tracking-wider">
+                    <span>{faq.q}</span>
+                    <ChevronDown className="w-4 h-4 text-gray-500 transition-transform duration-300 group-open:rotate-180" />
+                  </summary>
+                  <p className="text-xs text-gray-400 font-light leading-relaxed mt-4 pt-4 border-t border-white/5 animate-fade-in">
+                    {faq.a}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </div>
+
         </div>
       </main>
 
       {/* Footer */}
       <footer className="p-6 border-t border-white/5 bg-black/15 text-center text-xs text-gray-600 font-light">
-        © 2026 AuraCompress. Fast, secure client-side browser optimization.
+        © 2026 VectraCompress. Fast, secure client-side Image size Reducer.
       </footer>
     </div>
   );

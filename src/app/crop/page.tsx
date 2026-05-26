@@ -411,11 +411,43 @@ export default function CropPage() {
             </div>
           )}
 
+          {/* Detailed SEO Copywriting Guide Section */}
+          <div className="border-t border-white/5 pt-10 mt-10 space-y-6 text-left">
+            <div className="space-y-2">
+              <h3 className="text-lg font-extrabold text-white tracking-tight">
+                Interactive Guide: How to Crop Your Image Online
+              </h3>
+              <p className="text-xs text-gray-400 font-light leading-relaxed">
+                Learn how to slice away borders, adjust aspect ratios, and crop your image to highlight your subject.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
+              <div className="glass-panel p-5 rounded-2xl border border-white/5 bg-white/[0.01] space-y-2">
+                <h4 className="font-bold text-xs text-white uppercase tracking-wider text-brand-primary">
+                  Why Crop Your Image?
+                </h4>
+                <p className="text-xs text-gray-400 font-light leading-relaxed">
+                  Cropping your image does more than just reframe a portrait. By cutting out blank outer margins, unwanted background distractors, or wide borders, you are physically discarding thousands of unnecessary pixels. This spatial pruning is a highly effective way to reduce the overall file weight and dimensions of your image without compressing quality.
+                </p>
+              </div>
+
+              <div className="glass-panel p-5 rounded-2xl border border-white/5 bg-white/[0.01] space-y-2">
+                <h4 className="font-bold text-xs text-white uppercase tracking-wider text-brand-primary">
+                  Understanding Aspect Ratio Presets
+                </h4>
+                <p className="text-xs text-gray-400 font-light leading-relaxed">
+                  Different online portals require unique spatial formats. A perfect 1:1 Square aspect ratio is standard for passport photos, social media profiles, and company avatar icons. A 16:9 widescreen ratio is optimized for hero banners, web slides, and landscape desktop backgrounds. Use our pre-locked aspect ratio boundaries to crop with absolute geometric precision.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </main>
 
       <footer className="p-5 border-t border-white/5 bg-black/10 text-center text-[10px] text-gray-600 font-light">
-        AuraCrop. Free, secure, client-side browser optimization.
+        VectraCompress. Free, secure, client-side image optimization.
       </footer>
     </div>
   );
