@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import CompressorWorkspace from "@/components/tools/CompressorWorkspace";
 
 export const metadata: Metadata = {
-  title: "Passport Photo Size Reducer Online - Under 50KB | AuraCompress",
-  description: "Reduce passport photo size under 50KB or 20KB online. Predefined 1:1 square crop box and specific alignment guidelines for official forms. Secure and private.",
-  keywords: ["passport photo size reducer", "compress passport photo to 50kb", "resize passport photo online", "passport size photo compressor"],
+  title: "Passport Photo Size Reducer Online - Under 50KB | ResizePixel Online",
+  description: "Resize and compress passport photos under 50KB online for free. Adjust dimensions and crop 1:1 square aspect ratio locally and privately.",
+  keywords: ["passport photo size reducer", "passport photo compressor", "make passport size photo online", "passport photo to 50kb"],
 };
 
 export default function PassportPhotoPage() {

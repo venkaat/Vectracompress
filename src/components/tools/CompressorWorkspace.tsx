@@ -439,11 +439,11 @@ export default function CompressorWorkspace({
     let articles = [
       {
         title: "How to Reduce Your Photo File Size",
-        body: "To reduce your photo file size, upload your image to VectraCompress. Our advanced compression engine will automatically analyze the pixels and use an iterative binary search to find the optimal quality level to meet your exact KB target without introducing visible blur or blocky compression artifacts."
+        body: "To reduce your photo file size, upload your image to ResizePixel Online. Our advanced compression engine will automatically analyze the pixels and use an iterative binary search to find the optimal quality level to meet your exact KB target without introducing visible blur or blocky compression artifacts."
       },
       {
         title: "Is Client-Side Compression Safe?",
-        body: "Yes! Unlike other web-based resizing portals, VectraCompress operates 100% locally inside your web browser. Your private photos never leave your device, ensuring total privacy, fast compression speeds, and absolute data protection."
+        body: "Yes! Unlike other web-based resizing portals, ResizePixel Online operates 100% locally inside your web browser. Your private photos never leave your device, ensuring total privacy, fast compression speeds, and absolute data protection."
       }
     ];
 
@@ -479,7 +479,7 @@ export default function CompressorWorkspace({
       articles = [
         {
           title: "Step-by-Step: Reduce Photo File Size to 20KB",
-          body: "Uploading photos to old email services or government job portals often requires files under 20KB. VectraCompress accomplishes this by shrinking resolution scale and reducing JPEG quality metrics in tandem, searching through multiple compression passes to hit your exact 20KB budget."
+          body: "Uploading photos to old email services or government job portals often requires files under 20KB. ResizePixel Online accomplishes this by shrinking resolution scale and reducing JPEG quality metrics in tandem, searching through multiple compression passes to hit your exact 20KB budget."
         },
         {
           title: "Will My 20KB Image Look Pixilated?",
@@ -557,7 +557,7 @@ export default function CompressorWorkspace({
               <Minimize2 className="w-4 h-4 text-white" />
             </div>
             <span className="font-bold text-sm text-white tracking-wide">
-              AuraCompress
+              ResizePixel Online
             </span>
           </Link>
           <span className="text-[10px] uppercase font-bold text-gray-500 tracking-wider">
@@ -845,7 +845,7 @@ export default function CompressorWorkspace({
       </main>
 
       <footer className="p-5 border-t border-white/5 bg-black/10 text-center text-[10px] text-gray-600 font-light">
-        VectraCompress. Free, secure, client-side image optimization.
+        ResizePixel Online. Free, secure, client-side image optimization.
       </footer>
     </div>
   );

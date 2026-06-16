@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import CompressorWorkspace from "@/components/tools/CompressorWorkspace";
 
 export const metadata: Metadata = {
-  title: "Compress Image to 20KB Online for Free | AuraCompress",
+  title: "Compress Image to 20KB Online for Free | ResizePixel Online",
   description: "Shrink your images and photos under 20KB instantly. High-fidelity browser-based compression. 100% private, free, and no signups required.",
   keywords: ["compress image to 20kb", "image compressor under 20kb", "compress photo to 20kb online", "resize image to 20kb"],
 };

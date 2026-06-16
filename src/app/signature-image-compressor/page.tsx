@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import CompressorWorkspace from "@/components/tools/CompressorWorkspace";
 
 export const metadata: Metadata = {
-  title: "Signature Image Compressor Online - Under 20KB | AuraCompress",
-  description: "Compress signature image size under 20KB or 10KB online. Custom 3:1 wide crop ratio to remove margins. Ideal for online application forms.",
-  keywords: ["signature image compressor", "compress signature under 20kb", "resize signature image online", "signature size reducer"],
+  title: "Signature Image Compressor Online - Under 20KB | ResizePixel Online",
+  description: "Resize and compress digital signature images under 20KB online for free. Adjust dimensions and crop to 3:1 landscape format locally.",
+  keywords: ["signature image compressor", "compress signature online", "resize signature to 20kb", "signature size reducer"],
 };
 
 export default function SignaturePhotoPage() {
