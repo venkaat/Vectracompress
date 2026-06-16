@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Gateways -->
+  <url>
+    <loc>https://resizepixel.online/</loc>
+    <priority>1.00</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/compress-image</loc>
+    <priority>0.90</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/crop</loc>
+    <priority>0.90</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/resize-image</loc>
+    <priority>0.90</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Dimension Presets -->
+  <url>
+    <loc>https://resizepixel.online/resize-image-to-100x100</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/resize-image-to-300x300</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/resize-image-to-600x600</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/resize-image-to-1920x1080</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Target KB Presets -->
+  <url>
+    <loc>https://resizepixel.online/compress-image-to-20kb</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/compress-image-to-50kb</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/compress-image-to-100kb</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/compress-image-to-200kb</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Passport & Documents -->
+  <url>
+    <loc>https://resizepixel.online/passport-photo-resize</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/signature-resize</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/passport-photo-to-50kb</loc>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/photo-for-government-exam</loc>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Social Media Banners -->
+  <url>
+    <loc>https://resizepixel.online/instagram-photo-resizer</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/facebook-cover-resizer</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/youtube-thumbnail-resizer</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/linkedin-banner-resizer</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
