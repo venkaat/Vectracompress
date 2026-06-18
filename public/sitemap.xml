@@ -65,6 +65,38 @@
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://resizepixel.online/compress-jpeg-to-50kb</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/compress-png-online</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Generic Resize Terms -->
+  <url>
+    <loc>https://resizepixel.online/resize-image-in-kb</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/resize-image-dimensions</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/resize-jpg-online</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/resize-png-online</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 
   <!-- Passport & Documents -->
   <url>
@@ -90,12 +122,17 @@
 
   <!-- Social Media Banners -->
   <url>
-    <loc>https://resizepixel.online/instagram-photo-resizer</loc>
+    <loc>https://resizepixel.online/instagram-post-resizer</loc>
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://resizepixel.online/facebook-cover-resizer</loc>
+    <loc>https://resizepixel.online/instagram-story-resizer</loc>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/facebook-cover-photo-resizer</loc>
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>

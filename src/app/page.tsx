@@ -173,9 +173,10 @@ export default function HomePortal() {
                 <h4 className="text-xs font-bold text-brand-primary uppercase tracking-wide">Image Resize</h4>
                 <div className="flex flex-col gap-2">
                   <Link href="/resize-image" className="text-xs text-gray-400 hover:text-white transition-colors">Resize Image Online</Link>
+                  <Link href="/resize-image-dimensions" className="text-xs text-gray-400 hover:text-white transition-colors">Resize Image Dimensions</Link>
+                  <Link href="/resize-jpg-online" className="text-xs text-gray-400 hover:text-white transition-colors">Resize JPG Online</Link>
+                  <Link href="/resize-png-online" className="text-xs text-gray-400 hover:text-white transition-colors">Resize PNG Online</Link>
                   <Link href="/resize-image-to-100x100" className="text-xs text-gray-400 hover:text-white transition-colors">Resize to 100x100 px</Link>
-                  <Link href="/resize-image-to-300x300" className="text-xs text-gray-400 hover:text-white transition-colors">Resize to 300x300 px</Link>
-                  <Link href="/resize-image-to-600x600" className="text-xs text-gray-400 hover:text-white transition-colors">Resize to 600x600 px</Link>
                   <Link href="/resize-image-to-1920x1080" className="text-xs text-gray-400 hover:text-white transition-colors">Resize to 1920x1080 px</Link>
                 </div>
               </div>
@@ -185,7 +186,9 @@ export default function HomePortal() {
                 <h4 className="text-xs font-bold text-brand-secondary uppercase tracking-wide">Compress Image</h4>
                 <div className="flex flex-col gap-2">
                   <Link href="/compress-image" className="text-xs text-gray-400 hover:text-white transition-colors">Compress Image Online</Link>
-                  <Link href="/compress-image-to-20kb" className="text-xs text-gray-400 hover:text-white transition-colors">Compress Image to 20KB</Link>
+                  <Link href="/resize-image-in-kb" className="text-xs text-gray-400 hover:text-white transition-colors">Resize Image in KB</Link>
+                  <Link href="/compress-jpeg-to-50kb" className="text-xs text-gray-400 hover:text-white transition-colors">Compress JPEG to 50KB</Link>
+                  <Link href="/compress-png-online" className="text-xs text-gray-400 hover:text-white transition-colors">Compress PNG Online</Link>
                   <Link href="/compress-image-to-50kb" className="text-xs text-gray-400 hover:text-white transition-colors">Compress Image to 50KB</Link>
                   <Link href="/compress-image-to-100kb" className="text-xs text-gray-400 hover:text-white transition-colors">Compress Image to 100KB</Link>
                   <Link href="/compress-image-to-200kb" className="text-xs text-gray-400 hover:text-white transition-colors">Compress Image to 200KB</Link>
@@ -207,8 +210,9 @@ export default function HomePortal() {
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-emerald-400 uppercase tracking-wide">Social Media</h4>
                 <div className="flex flex-col gap-2">
-                  <Link href="/instagram-photo-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">Instagram Resizer</Link>
-                  <Link href="/facebook-cover-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">Facebook Cover Resizer</Link>
+                  <Link href="/instagram-post-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">Instagram Post Resizer</Link>
+                  <Link href="/instagram-story-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">Instagram Story Resizer</Link>
+                  <Link href="/facebook-cover-photo-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">Facebook Cover Resizer</Link>
                   <Link href="/youtube-thumbnail-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">YouTube Thumbnail Resizer</Link>
                   <Link href="/linkedin-banner-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">LinkedIn Banner Resizer</Link>
                 </div>
