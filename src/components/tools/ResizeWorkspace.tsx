@@ -16,6 +16,7 @@ interface ResizeWorkspaceProps {
   pageSuffix?: string;
   presetRatio?: string;
   specialInstructions?: string[];
+  seoSection?: React.ReactNode;
 }
 
 export default function ResizeWorkspace({
@@ -25,7 +26,8 @@ export default function ResizeWorkspace({
   subtitle,
   pageSuffix = "Image Resizer",
   presetRatio,
-  specialInstructions
+  specialInstructions,
+  seoSection
 }: ResizeWorkspaceProps) {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
@@ -495,7 +497,7 @@ export default function ResizeWorkspace({
 
               </div>
 
-              {renderSEOContent()}
+              {seoSection ? seoSection : renderSEOContent()}
 
             </div>
           )}

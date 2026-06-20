@@ -15,6 +15,7 @@ interface CompressorWorkspaceProps {
   specialInstructions?: string[];
   defaultCropRatio?: 'free' | '1:1' | '16:9' | '3:1';
   pageSuffix?: string;
+  seoSection?: React.ReactNode;
 }
 
 export default function CompressorWorkspace({
@@ -24,6 +25,7 @@ export default function CompressorWorkspace({
   specialInstructions,
   defaultCropRatio = 'free',
   pageSuffix = 'Optimized Image',
+  seoSection,
 }: CompressorWorkspaceProps) {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
@@ -839,7 +841,7 @@ export default function CompressorWorkspace({
             </div>
           )}
 
-          {renderSEOContent()}
+          {seoSection ? seoSection : renderSEOContent()}
 
         </div>
       </main>
