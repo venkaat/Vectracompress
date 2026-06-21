@@ -146,4 +146,41 @@
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
+
+  <!-- Format Converter Tools -->
+  <url>
+    <loc>https://resizepixel.online/convert-image-format</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/convert-webp-to-png</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/convert-webp-to-jpg</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/convert-avif-to-png</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/convert-avif-to-jpg</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/convert-png-to-jpg</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://resizepixel.online/convert-jpg-to-png</loc>
+    <priority>0.85</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>

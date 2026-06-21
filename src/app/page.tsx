@@ -167,7 +167,7 @@ export default function HomePortal() {
               Popular Image Resize Tools
             </h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               {/* Image Resize Column */}
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-brand-primary uppercase tracking-wide">Image Resize</h4>
@@ -215,6 +215,20 @@ export default function HomePortal() {
                   <Link href="/facebook-cover-photo-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">Facebook Cover Resizer</Link>
                   <Link href="/youtube-thumbnail-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">YouTube Thumbnail Resizer</Link>
                   <Link href="/linkedin-banner-resizer" className="text-xs text-gray-400 hover:text-white transition-colors">LinkedIn Banner Resizer</Link>
+                </div>
+              </div>
+
+              {/* Convert Column */}
+              <div className="space-y-3">
+                <h4 className="text-xs font-bold text-amber-400 uppercase tracking-wide">Convert Image</h4>
+                <div className="flex flex-col gap-2">
+                  <Link href="/convert-image-format" className="text-xs text-gray-400 hover:text-white transition-colors">Convert Image Format</Link>
+                  <Link href="/convert-webp-to-png" className="text-xs text-gray-400 hover:text-white transition-colors">Convert WebP to PNG</Link>
+                  <Link href="/convert-webp-to-jpg" className="text-xs text-gray-400 hover:text-white transition-colors">Convert WebP to JPG</Link>
+                  <Link href="/convert-avif-to-png" className="text-xs text-gray-400 hover:text-white transition-colors">Convert AVIF to PNG</Link>
+                  <Link href="/convert-avif-to-jpg" className="text-xs text-gray-400 hover:text-white transition-colors">Convert AVIF to JPG</Link>
+                  <Link href="/convert-png-to-jpg" className="text-xs text-gray-400 hover:text-white transition-colors">Convert PNG to JPG</Link>
+                  <Link href="/convert-jpg-to-png" className="text-xs text-gray-400 hover:text-white transition-colors">Convert JPG to PNG</Link>
                 </div>
               </div>
             </div>
